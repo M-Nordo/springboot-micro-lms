@@ -52,3 +52,15 @@ Bu proje aşağıdaki mikro servisleri içermektedir:
 git clone https://github.com/M-Nordo/springboot-micro-lms.git
 cd springboot-micro-lms
 ```
+
+2. Build the entire project / Tüm projeyi oluşturun
+
+```bash
+mvnd clean install
+```
+
+3. Run the services individually (example for config-server) / Servisleri tek tek çalıştırın (config-server örneği)
+
+```bash
+mvnd spring-boot:run -pl config-server
+```
